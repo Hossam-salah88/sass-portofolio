@@ -1,0 +1,51 @@
+
+
+@import "../helpe/variables";
+@import "../layout/grid";
+@import "../layout/header";
+
+body{
+    height: 100vh;
+    background-image:
+    linear-gradient(to bottom, rgba(68, 68, 68, 0.8), rgba(68, 68, 68, 0.6)),
+    url('/disrt/img/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home__section {
+
+    .home__title {
+        font-size: 3rem;
+        text-transform: uppercase;
+        margin-top: 20vh;
+        span {
+            color: $second-color;
+        }
+    }
+
+    .home__subtitle {
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-top: 1rem;
+    }
+}
+
+.home__social {
+    margin-top: 1rem;
+
+    .home__social-icon{
+        font-size: 2rem;
+        color: #fff;
+        margin-left: 1rem;
+        &:hover {
+            color: $second-color;
+            @include easeOut;
+        }
+    }
+    
+}
+
+
+

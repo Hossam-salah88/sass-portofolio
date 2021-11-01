@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  max-width: 1200rem;
+  margin: auto;
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
+body {
+  background-color: #444;
+  color: #fff; }

@@ -1,0 +1,37 @@
+
+
+// ======================= base =====================
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    background-color: $primary-color;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+// ================================= layout ==========================
+
+.container{
+    max-width: 75rem;
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+h1, h2, h3 {
+    font-weight: 500;
+}
