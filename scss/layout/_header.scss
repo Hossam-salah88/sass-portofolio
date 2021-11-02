@@ -87,7 +87,7 @@
 
 //===================== Navbar List ==========
     .nav__menu {
-        background: darken($primary-color, 5);
+        background: darken(set-color-text($primary-color), 5);
         height: 100%;
         width: 100%;
         display: flex;
@@ -101,7 +101,7 @@
         }
 
         .nav__list {
-            color: #fff;
+            color: $primary-color;
             text-align: center;
 
 
@@ -122,7 +122,7 @@
 
         
             .nav__link {
-                color: #fff;
+                color: $primary-color;
                 font-size: 2rem;
                 font-weight: 500;
                 text-transform: uppercase;

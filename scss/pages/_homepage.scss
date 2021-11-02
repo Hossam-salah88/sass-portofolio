@@ -4,6 +4,7 @@
 @import "../layout/grid";
 @import "../layout/header";
 
+
 body{
     height: 100vh;
     background-image:
@@ -12,6 +13,8 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
+    color: set-color-text($primary-color);
 }
 
 .home__section {
@@ -46,6 +49,9 @@ body{
     }
     
 }
+
+@import "../layout/midaQuary";
+
 
 
 

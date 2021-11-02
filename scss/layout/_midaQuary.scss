@@ -1,0 +1,29 @@
+// Wide Screen
+@include mediaXL {
+
+}
+
+//Desktop & laptops
+@include mediaLg {
+
+}
+
+// Tablets & small laptops
+@include mediaMd {
+    .nav__content {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+// Mobile Screen
+@include mediaSm {
+    .nav__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home__section {
+        text-align: center;
+    }
+}
